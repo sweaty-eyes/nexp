@@ -17,3 +17,5 @@ ENV NODE_ENV production
 EXPOSE 3000
 #Starting the app
 CMD ["npx", "serve", "build"]
+
+#docker build -t image-name . 
